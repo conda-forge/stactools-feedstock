@@ -1,5 +1,5 @@
 {% set name = "stactools" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stactools-{{ version }}.tar.gz
-  sha256: 691dc0038d3e709462748747d2e39c2f369cf16d5cd890faba0025e4424b4991
+  sha256: e230342b9ae603b06ce0431ea7bb07769595f7ee4887e880e8966c1917ed02d5
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
   entry_points:
-  - stac = stactools.cli.cli:run_cli
+    - stac = stactools.cli.cli:run_cli
 
 requirements:
   host:
