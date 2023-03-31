@@ -1,11 +1,11 @@
-About stactools
-===============
+About stactools-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stactools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/stac-utils/stactools
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stactools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Command line tool and Python library for working with STAC
 
