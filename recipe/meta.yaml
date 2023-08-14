@@ -22,6 +22,7 @@ requirements:
     - python >=3.8
   run:
     - aiohttp >=3.8.3
+    - antimeridian >=0.2.6
     - click >=8.1.3
     - fsspec >=2021.7
     - lxml >=4.9.2
